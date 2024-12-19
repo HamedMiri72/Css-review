@@ -25,3 +25,21 @@ p {
 
 }
 
+a {
+    text-decoration: none;
+    /* cursor: not-allowed; */
+    color: blue;
+
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus{
+    color: dodgerblue;
+}
+
+a:active {
+    color: red;
+}
